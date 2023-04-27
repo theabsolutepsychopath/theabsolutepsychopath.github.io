@@ -9,6 +9,9 @@ window.onload = function loadingcontact() {
   document.getElementById("result").innerHTML = "";
 }
 
+// Define symbol variable
+let newsletterSymbol;
+
 // Function to send the webhook
 function sendToDiscord() {
   const nameInput = document.getElementById("name").value;
@@ -18,8 +21,7 @@ function sendToDiscord() {
 }
 
 // Change "true" or "false" to "✓" or "×"
-let newsletterSymbol;
-if (newsletterInput === "true") {
+if (newsletterInput === true) {
   newsletterSymbol = "✓";
 } else {
   newsletterSymbol = "×";
