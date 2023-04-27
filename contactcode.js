@@ -12,8 +12,8 @@ window.onload = function loadingcontact() {
 // Function to send the webhook
 function sendToDiscord() {
   const nameInput = document.getElementById("name").value;
-  const emailInput = document.getElementById("Email").value;
-  const messageInput = document.getElementById("Message").value;
+  const emailInput = document.getElementById("email").value;
+  const messageInput = document.getElementById("message").value;
   const newsletterInput = document.getElementById("newsletter").checked;
 
   // Construct the payload for the webhook
