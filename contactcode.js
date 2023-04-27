@@ -18,8 +18,8 @@ function sendToDiscord() {
 
   // Construct the payload for the webhook
   const payload = {
-    content: `${messageInput}`,
-    username: `${nameInput} (${emailInput})`,
+    content: "${nameInput} (${emailInput}): ${messageInput} \n \n Add to email list: ${newsletterInput}",
+    username: `Contact Form Submissions`,
     avatar_url: "https://cdn.discordapp.com/attachments/1100072590560743497/1100073426288382094/ezgif.com-gif-maker_1.gif",
   };
 
