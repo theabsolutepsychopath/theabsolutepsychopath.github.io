@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Me!</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p class="topperback">
+        <a href="index.html">
+        <button type="button" id="backbutton" class="backbuttonn">Go Back</button></a>
+        </p>
+        <h1>Contact Form</h1>
+        <h2>Input your contact details with a message to me below.</h2><br>
+        <form>
+            <div class="">
+              <label for="name">put your first name here</label><br><br>
+              <input type="text" id="name" name="name" class="contactformcontrol" required><br><br>
+              <label for="email">put your email here</label><br><br>
+              <input type="text" id="email" name="email" class="contactformcontrol" required><br><br>
+              <label for="message" class="contactformthing">say something to me</label><br><br>
+              <textarea id="message" name="message" class="contactformcontrol" rows="6" minlength="50" maxlength="3000" required></textarea><br><br>
+              <input type="checkbox" id="newsletter" name="newsletter" value="Sign Up!">
+              <label for="newsletter">receive random shit from me at random</label>
+              <br><br>
+              <button type="button" id="contactsubmit" onclick="sendToDiscord()" class="contact-btn contact-btn-primary contact-btn-lg fcf-btn-block">Send</button>
+              <script src="contactcode.js"></script>
+              <a><span type="resulttext" id="result"></span></a>
+            </div>
+          </form>
+    </body>
+    <footer>
+        <hr>
+          <p class="footerleft">
+              completepsychopath<br><br>
+              Contact Info<br>
+              Phone: 420-696-1337<br>
+              Email: hmu bby g uwu
+          </p>
+          <p class="footerright">
+            <a href="https://github.com/completepsychopath/"><button type="button">GitHub Profile</button></a>
+          </br>
+          </br>  
+            <a href="https://www.youtube.com/channel/UCFRGvO6xMqrUoLUEuuX8QsQ"><button type="button">Youtube Profile</button></a>
+          <br>
+          <br>
+            <a href="https://t.me/completepsychopath"><button type="button">Telegram Contact</button></a>  
+        </p>
+    </footer>
+</html>
