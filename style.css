@@ -127,7 +127,6 @@ button[type="menuselectcode"] {
     font-size: 36px;
     padding: 15px auto;
     text-align: left;
-    float: left;
 
 }
 button[type="menuselectvideo"] {
@@ -139,6 +138,5 @@ button[type="menuselectvideo"] {
     font-size: 36px;
     padding: 15px auto;
     text-align: right;
-    float: right;
 
 }

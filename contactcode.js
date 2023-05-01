@@ -9,8 +9,7 @@ window.onload = function loadingcontact() {
   document.getElementById("result").innerHTML = "";
 }
 
-// Define symbol variable
-let newsletterSymbol;
+
 
 // Function to send the webhook
 function sendToDiscord() {
@@ -18,7 +17,9 @@ function sendToDiscord() {
   const emailInput = document.getElementById("email").value;
   const messageInput = document.getElementById("message").value;
   const newsletterInput = document.getElementById("newsletter").checked;
-}
+
+// Define symbol variable
+let newsletterSymbol;
 
 // Change "true" or "false" to "✓" or "×"
 if (newsletterInput === true) {
@@ -49,3 +50,4 @@ if (newsletterInput === true) {
       console.error("Error sending contact info:", error);
       document.getElementById("result").innerHTML = `There was an issue proccessing your contact information. Please try again in a little bit.`;
     });
+  }
