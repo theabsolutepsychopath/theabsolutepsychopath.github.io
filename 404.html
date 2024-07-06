@@ -12,16 +12,15 @@
                 window.location.href = "/discord.html";
             }
             else {
-                window.location.href = "index.html";
+                window.location.replace(window.location.origin + "/");
             }
         }
-
-        // Execute the redirection function on page load
-        window.onload = handleRedirection;
+        
+        handleRedirection();
     </script>
 </head>
 <body>
     <p>404 Error</p>
-    <p>Hey, you're not supposed to see this page. :/ Please go back to <a href="/index.html">the main page</a>.</p>
+    <p>Hey, you're not supposed to see this page. :/ Please go back to <a href="/">the main page</a>.</p>
 </body>
 </html>
