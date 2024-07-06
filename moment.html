@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my page</title>
+    <style>
+        @font-face {
+            font-family: 'BurbankBigCondensedBlack';
+            src: url('burbankbigcondensed_black.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        body {
+            background-color: #2c2c2c;
+            color: white;
+            font-family: 'BurbankBigCondensedBlack', Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding-top: 50px;
+            box-sizing: border-box;
+        }
+        .container {
+            text-align: center;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-image: url('photo_2023-12-13_19-49-15.jpg'); /* Profile picture URL */
+            background-size: cover;
+            background-position: center;
+            margin: 0 auto 20px;
+        }
+        .username {
+            font-size: 40px; /* Increased font size */
+            font-weight: bold;
+            margin-bottom: 15px; /* Increased margin-bottom */
+        }
+        .description {
+            font-size: 22px; /* Increased font size */
+            margin-bottom: 30px;
+        }
+        .links {
+            list-style-type: none;
+            padding: 0;
+        }
+        .links li {
+            margin: 15px 0;
+        }
+        .links a {
+            display: block;
+            padding: 22.5px 45px; /* Increased by 150% */
+            width: 300px; /* Increased width to be proportional */
+            margin: 0 auto; /* Center align the button */
+            background-color: #4a4a4a;
+            border-radius: 25px; /* Rounded corners */
+            text-decoration: none;
+            color: white;
+            font-size: 27px; /* Increased by 150% */
+            transition: background-color 0.3s;
+        }
+        .links a:hover {
+            background-color: #5c5c5c;
+        }
+        .footer {
+            margin-top: auto;
+            padding: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-pic"></div>
+        <div class="username">@theabsolutepsychopath</div>
+        <div class="description">i make content for people</div>
+        <ul class="links">
+            <li><a href="https://discord.gg/F3yThnHNHd">Discord</a></li>
+            <li><a href="https://www.twitch.tv/absolutepsychopath">Twitch</a></li>
+            <li><a href="https://www.youtube.com/@theabsolutepsychopath">YouTube</a></li>
+            <li><a href="https://www.tiktok.com/@theabsolutepsychopath">TikTok</a></li>
+            <li><a href="https://github.com/theabsolutepsychopath">Github</a></li>
+        </ul>
+    </div>
+    <div class="footer">thanks for visiting my page</div>
+</body>
+</html>
